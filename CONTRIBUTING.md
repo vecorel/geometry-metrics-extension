@@ -1,9 +1,7 @@
 # Contributing
 
 All contributions are subject to the
-[Vecorel Code of Conduct](https://github.com/vecorel/specification/blob/main/CODE_OF_CONDUCT.md).
-For contributions, please follow the
-[Vecorel contributing guideline](https://github.com/vecorel/specification/blob/main/CONTRIBUTING.md).
+[Vecorel Code of Conduct](https://vecorel.org/code-of-conduct/).
 
 ## Running tests
 
@@ -17,7 +15,5 @@ Finally, you can run the tests as follows:
 
 - To check the markdown run: `pipenv run test-docs`
 - To check the Vecorel schema run: `pipenv run test-schema`
-- To check the examples run:
-  - `pipenv run test-geojson` for GeoJSON
-  - `pipenv run test-geoparquet` for GeoParquet
+- To check the examples run: `pipenv run test-examples`
 - To create a GeoParquet from the GeoJSON examples: `pipenv run create-geoparquet`

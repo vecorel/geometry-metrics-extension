@@ -27,9 +27,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - ...
 
-## [v0.1.0] - 2024-03-01
+## [v0.1.0] - 2025-08-24
 
 - First release
 
-[Unreleased]: <https://github.com/vecorel/extension-template/compare/v0.1.0...main>
-[v0.1.0]: <https://github.com/vecorel/extension-template/tree/v0.1.0>
+[Unreleased]: <https://github.com/vecorel/geometry-metrics-extension/compare/v0.1.0...main>
+[v0.1.0]: <https://github.com/vecorel/geometry-metrics-extension/tree/v0.1.0>

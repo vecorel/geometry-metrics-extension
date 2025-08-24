@@ -1,8 +1,11 @@
-$schema: https://vecorel.github.io/sdl/v0.2.0/schema.json
-required:
-  - template:field1
+$schema: https://vecorel.org/sdl/v0.2.0/schema.json
+collection:
+  metrics:area: false
+  metrics:perimeter: false
 properties:
-  template:field1:
-    type: uint8
-  template:field2:
-    type: string
+  metrics:area:
+    type: float
+    exclusiveMinimum: 0
+  metrics:perimeter:
+    type: float
+    exclusiveMinimum: 0

@@ -1,49 +1,53 @@
 {
-  "type": "Feature",
-  "id": "example",
-  "bbox": [
-    172.91173669923782,
-    1.3438851951615003,
-    172.95469614953714,
-    1.3690476620161975
-  ],
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          172.91173669923782,
-          1.3438851951615003
-        ],
-        [
-          172.95469614953714,
-          1.3438851951615003
-        ],
-        [
-          172.95469614953714,
-          1.3690476620161975
-        ],
-        [
-          172.91173669923782,
-          1.3690476620161975
-        ],
-        [
-          172.91173669923782,
-          1.3438851951615003
-        ]
-      ]
+  "schemas": {
+    "example": [
+      "https://vecorel.org/specification/v0.1.0/schema.yaml",
+      "https://vecorel.org/geometry-metrics-extension/v0.1.0/schema.yaml"
     ]
   },
-  "properties": {
-    "determination_datetime": "2020-01-01T00:00:00Z",
-    "template:field1": 1,
-    "template:field2": "abc"
-  },
-  "links": [
+  "type": "FeatureCollection",
+  "features": [
     {
-      "rel": "collection",
-      "href": "collection.json",
-      "type": "application/json"
+      "id": "example123",
+      "type": "Feature",
+      "properties": {
+        "collection": "example",
+        "metrics:area": 13302056.24144445,
+        "metrics:perimeter": 14708.361379488953
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.91173669923782,
+              1.3438851951615003
+            ],
+            [
+              172.95469614953714,
+              1.3438851951615003
+            ],
+            [
+              172.95469614953714,
+              1.3690476620161975
+            ],
+            [
+              172.91173669923782,
+              1.3690476620161975
+            ],
+            [
+              172.91173669923782,
+              1.3438851951615003
+            ]
+          ]
+        ]
+      },
+      "bbox": [
+        172.91173669923782,
+        1.3438851951615003,
+        172.95469614953714,
+        1.3690476620161975
+      ]
     }
   ]
 }
